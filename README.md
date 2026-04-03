@@ -1,6 +1,6 @@
 # 🚀 Detección de Objetos con YOLOv11 - Córdoba, Argentina
 
-Sistema de visión artificial desarrollado para la detección y clasificación automática de objetos urbanos. Este proyecto evolucionó desde pruebas básicas con webcam hasta un sistema de recolección de datos optimizado para hardware de recursos limitados (Netbook Juana Manso).
+Sistema de visión artificial desarrollado para la detección y clasificación automática de objetos urbanos. Este proyecto evolucionó desde pruebas básicas con webcam hasta un sistema de recolección de datos optimizado para hardware de recursos limitados.
 
 ## 📈 Evolución del Proyecto
 
@@ -22,3 +22,9 @@ El desarrollo se dividió en etapas para mejorar el rendimiento y la organizaci�
 1. Clonar el repositorio:
    ```bash
    git clone [https://github.com/fdiaz-dev/Deteccion-YOLO.git](https://github.com/fdiaz-dev/Deteccion-YOLO.git)
+2. Instalar dependencias:
+   ```bash
+   pip install ultralytics opencv-python
+3. Ejecutar el recolector principal:
+   ```bash
+   python recolector_sin_repetidos.py
